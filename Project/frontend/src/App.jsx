@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import AuditeurAchatsPage from "./components/AuditForm";
 function App() {
   return (
     // <div className="App">
@@ -29,7 +30,18 @@ function App() {
           </>
         }
       />
+       <Route
+        path="/audit-achats"
+        element={
+          <>
+            <NavBar />
+            <AuditeurAchatsPage />
+            <Footer />
+          </>
+        }
+      />
     </Routes>
+    
     // </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Contact() {
   return (
     <section className="py-5" id='contact'>
@@ -45,7 +46,7 @@ export default function Contact() {
                                     </div>
 
                                     <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
-                                    <div className="d-grid"><button className="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                                    <div className="d-grid"><button className="btn btn-primary btn-lg " id="submitButton" type="submit">Submit</button></div>
                                 </form>
                             </div>
                         </div>
